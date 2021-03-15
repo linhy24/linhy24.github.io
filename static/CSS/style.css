@@ -312,6 +312,7 @@ h3 {
 }
 
 h1 {
+	text-align: center;
 	font-size: 28px
 }
 
@@ -329,6 +330,10 @@ h6 {
 a {
 	color: #267CB9;
 	text-decoration: none
+}
+
+p{
+	text-align: center
 }
 
 a:hover,
