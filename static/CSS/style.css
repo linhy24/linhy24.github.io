@@ -279,7 +279,6 @@
 }
 
 .profile {
-	display: block;
 	padding: 0.35em;
 	border:0.1em solid #000000;
 	width: 130px;
@@ -291,12 +290,13 @@
 	transition: all 0.2s;
 	justify-content: center;
 	align-items: center;
+	display: block
 }
 
 .profile:hover {
+	background-color:#eef5f5;
 	color: #069;
-	font-weight: bold;
-	background-color:#eef5f5
+	font-weight: bold
 }
 
 body {
