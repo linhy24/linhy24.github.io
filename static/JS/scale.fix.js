@@ -48,4 +48,4 @@ function closeNav() {
     document.getElementById("main").style.marginLeft= "0";
     document.getElementsByClassName("openbtn")[0].style.background = "white";
     navOpen = false
-}
+} 
