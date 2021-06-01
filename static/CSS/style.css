@@ -166,10 +166,13 @@ a:hover small {
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
 	.sidebar {
-	  text-align: center;
-	  float: none;
+		text-align: center;
+		float: none;
 	}
 	.openbtn {
+		padding: 5px 10px;
+		margin-top: 10px;
+		margin-bottom: -20px;
 		margin-left: -25px;
 		position: relative;
 	}
