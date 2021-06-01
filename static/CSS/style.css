@@ -95,6 +95,10 @@ a:hover small {
 	color: #777
 }
 
+.blog-title {
+	margin-top: 30px;
+}
+
 .wrapper {
 	padding: 30px;
 	width: 860px;
@@ -114,9 +118,9 @@ a:hover small {
 	padding-top: 60px;
 	justify-content: center;
 	align-items: center;
-}  
-  
-  .sidebar a {
+}
+
+.sidebar a {
 	padding: 8px 8px 8px 45px;
 	text-decoration: none;
 	font-size: 15px;
@@ -125,15 +129,15 @@ a:hover small {
 	transition: 0.3s;
 	justify-content: center;
 	align-items: center;
-  }
+}
   
-  .sidebar a:hover {
+.sidebar a:hover {
 	background-color: #e4f5f5;
 	width: 80%;
 	font-weight: bold;
-  }
+}
   
-  .openbtn {
+.openbtn {
 	font-size: 20px;
 	cursor: pointer;
 	background-color: white;
@@ -143,15 +147,15 @@ a:hover small {
 	margin-left: -10px;
 	position: fixed;
 	border-color: #d8d2d2;
-  }
+}
   
-  .openbtn:hover {
+.openbtn:hover {
 	background-color: #f1f1f1;
-  }
+}
   
-  #main {
+#main {
 	transition: margin-left .5s;
-  }
+}
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   /* @media screen and (max-height: 450px) {
