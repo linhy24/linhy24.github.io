@@ -166,8 +166,8 @@ a:hover small {
 	  float: none;
 	}
 	.openbtn {
-		position: relative;
 		margin-left: -25px;
+		position: relative;
 	}
 }
 
