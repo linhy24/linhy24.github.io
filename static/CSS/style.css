@@ -147,6 +147,7 @@ a:hover small {
 	margin-left: 50px;
 	position: fixed;
 	border-color: #d8d2d2;
+	border-radius: 0.35em;
 }
   
 .openbtn:hover {
