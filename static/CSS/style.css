@@ -148,7 +148,7 @@ a:hover small {
 	padding: 8px 12px;
 	margin-top: 30px;
 	margin-left: 50px;
-	position: absolute;
+	position: fixed;
 	border-color: #d8d2d2;
 	border-radius: 0.35em;
 }
