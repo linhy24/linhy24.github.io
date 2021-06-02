@@ -115,13 +115,13 @@ a:hover small {
 	background-color: #f1f1f1;
 	overflow-x: hidden;
 	transition: 0.5s;
-	padding-top: 60px;
+	padding-top: 30px;
 	justify-content: center;
 	align-items: center;
 }
 
 .sidebar a {
-	padding: 8px 8px 8px 45px;
+	padding: 20px 20px 20px 45px;
 	text-decoration: none;
 	font-size: 15px;
 	color: black;
@@ -144,7 +144,7 @@ a:hover small {
 	color: black;
 	padding: 10px 15px;
 	margin-top: 30px;
-	margin-left: -10px;
+	margin-left: 50px;
 	position: fixed;
 	border-color: #d8d2d2;
 }
@@ -171,10 +171,8 @@ a:hover small {
 	}
 	.openbtn {
 		padding: 5px 10px;
-		margin-top: 10px;
-		margin-bottom: -20px;
-		margin-left: -25px;
-		position: relative;
+		margin:auto;
+		position: absolute;
 	}
 }
 
