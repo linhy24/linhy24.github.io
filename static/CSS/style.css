@@ -141,11 +141,11 @@ a:hover small {
 }
   
 .openbtn {
-	font-size: 20px;
+	font-size: 22px;
 	cursor: pointer;
 	background-color: white;
 	color: black;
-	padding: 10px 15px;
+	padding: 8px 12px;
 	margin-top: 30px;
 	margin-left: 50px;
 	position: absolute;
