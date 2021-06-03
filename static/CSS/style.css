@@ -155,7 +155,7 @@ a:hover small {
 }
   
   /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
 	.sidebar {
 		text-align: center;
 		float: none;
@@ -169,6 +169,10 @@ a:hover small {
 		text-align: center;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.navbar {
+		border-radius: 0.75em;
 	}
 }
 
@@ -429,13 +433,11 @@ body{
   
   nav .container {
 	margin-top: 0;
-	height:80px;
+	height:60px;
 	font-size: 20px;
   }
 
-  .navbar {
-	  border-radius: 0.75em;
-  }
+ 
   .navbar a {
 	color: white;
   }
