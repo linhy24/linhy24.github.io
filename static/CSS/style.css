@@ -175,84 +175,8 @@ a:hover small {
 	margin-top: 30px;
 }
 
-.wrapper {
-	padding: 30px;
-	width: 860px;
-	margin: 0 auto;
-	text-align: center;
-	align-items: center;
-}
-
-.sidebar {
-	height: 100%;
-	width: 0;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #f1f1f1;
-	overflow-x: hidden;
-	transition: 0.5s;
-	padding-top: 30px;
-	justify-content: center;
-	align-items: center;
-}
-
-.sidebar a {
-	padding: 20px 20px 20px 45px;
-	text-decoration: none;
-	font-size: 15px;
-	color: black;
-	display: block;
-	transition: 0.3s;
-	justify-content: center;
-	align-items: center;
-}
-  
-.sidebar a:hover {
-	background-color: #e4f5f5;
-	width: 80%;
-	font-weight: bold;
-}
-  
-.openbtn {
-	font-size: 22px;
-	cursor: pointer;
-	background-color: white;
-	color: black;
-	padding: 8px 12px;
-	margin-top: 30px;
-	margin-left: 50px;
-	position: fixed;
-	border-color: #d8d2d2;
-	border-radius: 0.35em;
-}
-  
-.openbtn:hover {
-	background-color: #f1f1f1;
-}
-  
-#main {
-	transition: margin-left .5s;
-}
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 480px) {
-	.sidebar {
-		text-align: center;
-		float: none;
-	}
-	.openbtn {
-		padding: 5px 10px;
-		margin:auto;
-		position: absolute;
-	}
-	.wrapper {
-		text-align: center;
-		justify-content: center;
-		align-items: center;
-	}
-
 	.navbar {
 		border-radius: 0.75em;
 	}
