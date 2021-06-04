@@ -1,3 +1,78 @@
+.card-margin {
+	margin-bottom: 1.875rem;
+}
+  
+.card {
+	border: 0;
+	box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+	-ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
+}
+  
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #ffffff;
+	background-clip: border-box;
+	border: 1px solid #e6e4e9;
+	border-radius: 0.75em;
+}
+  
+.card .card-header.no-border {
+	border: 0;
+}
+
+.card .card-header {
+	background: none;
+	padding: 0 0.9375rem;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	min-height: 50px;
+}
+ 
+.card-header:first-child {
+	border-radius: calc(8px - 1px) calc(8px - 1px) 0 0;
+}
+
+.container {
+	margin-top: 30px;
+}
+  
+.nav-pills > li > a.active {
+    background-color: rgb(29, 165, 165) !important;
+}
+ 
+.container li a {
+	  background-color: red;
+}
+  
+nav .container {
+	margin-top: 0;
+	height:60px;
+	font-size: 20px;
+}
+ 
+.navbar a {
+	color: beige !important;
+}
+  
+.navbar a:hover {
+	color: #F4F7FD;
+	font-weight: bold;
+}
+  
+.nav > li > a.active,
+.nav>li>a:hover,
+.nav>li>a:focus {
+	color:beige;
+	border-radius: 0.75em;
+}
+
 .profile {
 	padding: 0.35em;
 	border:0.1em solid #000000;
@@ -19,6 +94,13 @@
 	font-weight: bold
 }
 
+body{
+	background: #F4F7FD;
+	font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #727272;
+	font-weight: 400
+}
+  
 h1,
 h2,
 h3,
@@ -386,82 +468,5 @@ screen and (max-width: 480px) {
 	}
 }
 
-body{
-	background: #F4F7FD;
-	  font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	  color: #727272;
-	  font-weight: 400
-  }
-  
-  .card-margin {
-	margin-bottom: 1.875rem;
-  }
-  
-  .card {
-	border: 0;
-	box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
-	-webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
-	-moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
-	-ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
-  }
-  .card {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	min-width: 0;
-	word-wrap: break-word;
-	background-color: #ffffff;
-	background-clip: border-box;
-	border: 1px solid #e6e4e9;
-	border-radius: 0.75em;
-  }
-  
-  .card .card-header.no-border {
-	border: 0;
-  }
-  .card .card-header {
-	background: none;
-	padding: 0 0.9375rem;
-	font-weight: 500;
-	display: flex;
-	align-items: center;
-	min-height: 50px;
-  }
-  .card-header:first-child {
-	border-radius: calc(8px - 1px) calc(8px - 1px) 0 0;
-  }
 
-  .container {
-	margin-top: 30px;
-  }
-  
-  .nav-pills > li > a.active {
-    background-color: rgb(36, 197, 197) !important;
-}
-  .container li a {
-	  background-color: red;
-  }
-  
-  nav .container {
-	margin-top: 0;
-	height:60px;
-	font-size: 20px;
-  }
-
- 
-  .navbar a {
-	color: beige !important;
-  }
-  
-  .navbar a:hover {
-	color: #F4F7FD;
-	font-weight: bold;
-  }
-  
-  .nav > li > a.active,
-  .nav>li>a:hover,
-  .nav>li>a:focus {
-	  color:beige;
-	border-radius: 0.75em;
-  }
   
