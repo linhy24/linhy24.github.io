@@ -175,7 +175,7 @@ a:hover small {
 		border-radius: 0.75em;
 	}
 
-	p {
+	.content p {
 		font-size: 13px;
 	}
 }
