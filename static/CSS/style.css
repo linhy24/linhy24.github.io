@@ -79,6 +79,7 @@
     background-color: rgb(29, 165, 165) !important;
 }
 
+
 /* property of the content area */
 .container {
 	margin-top: 30px;
@@ -90,9 +91,6 @@ nav .container {
 	font-size: 20px;
 }
  
-.form-check {
-	margin-top: 4px;
-}
 
 /* properties of buttons and links */
 .profile {
@@ -380,7 +378,7 @@ screen and (max-width: 480px) {
 	}
 
 	.nav-pills > li > a.active {
-		background-color: #416354 !important;
+		background-color: #39574a !important;
 	}
 
 	.view {
