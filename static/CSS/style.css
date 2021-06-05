@@ -68,7 +68,6 @@
 
 .nav-link {
 	color:beige;
-	margin-top:8.5px;
 }
 
 .nav-link:hover {
@@ -90,6 +89,9 @@ nav .container {
 	font-size: 20px;
 }
  
+.form-check {
+	margin-top:8.5px;
+}
 
 /* properties of buttons and links */
 .profile {
