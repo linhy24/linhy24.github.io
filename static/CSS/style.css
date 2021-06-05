@@ -40,8 +40,16 @@
 	border-radius: calc(8px - 1px) calc(8px - 1px) 0 0;
 }
 
+.view {
+	color:black;
+}
 
 /* properties of the navigation bar */
+.navbar {
+	font: white; 
+	background-color: #4c7da6;
+}
+
 .navbar a {
 	color: beige !important;
 }
@@ -110,7 +118,7 @@ body{
 	color: #727272;
 	font-weight: 400
 }
-  
+
 h1,
 h2,
 h3,
@@ -178,6 +186,10 @@ a small {
 
 a:hover small {
 	color: #777
+}
+
+b {
+	color:gray;
 }
 
 .blog-title {
@@ -322,5 +334,48 @@ screen and (max-width: 480px) {
 	}
 }
 
+/* properties for dark mode */
+:root {
+	color-scheme: light dark;
+	supported-color-scheme: light dark;
+}
 
-  
+@media (prefers-color-scheme: dark) {
+	body {
+	  background: #38434e;
+	  color:#dad8d8;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {	
+		color:#dad8d8;
+	}
+
+	b {
+		color:rgb(180, 178, 178);
+	}
+
+	.profile {
+		color: rgb(35, 83, 116);
+	}
+
+	.navbar {
+		background-color: #2a3641;
+	}
+
+	.nav-pills > li > a.active {
+		background-color: #39574a !important;
+	}
+
+	.view {
+		color:#dad8d8;
+	}
+
+	.card {
+		background-color: #84949c;
+	}
+}
