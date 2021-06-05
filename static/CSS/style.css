@@ -334,7 +334,7 @@ screen and (max-width: 480px) {
 	}
 }
 
-/* properties for dark mode */
+/* properties for dark mode - color redefinition */
 :root {
 	color-scheme: light dark;
 	supported-color-scheme: light dark;
