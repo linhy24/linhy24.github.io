@@ -368,7 +368,7 @@ screen and (max-width: 480px) {
 	supported-color-scheme: light dark;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	body {
 	  background: #38434e;
 	  color:#dad8d8;
@@ -407,7 +407,7 @@ screen and (max-width: 480px) {
 	.card {
 		background-color: #84949c;
 	}
-}
+} */
 
 /* manual dark mode switch */
 [data-theme="dark"] {
