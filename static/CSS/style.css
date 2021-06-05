@@ -378,7 +378,7 @@ screen and (max-width: 480px) {
 	}
 
 	.nav-pills > li > a.active {
-		background-color: #39574a !important;
+		background-color: #416354 !important;
 	}
 
 	.view {
@@ -430,3 +430,6 @@ h6 {
 	background-color: #84949c;
 }
 
+[data-theme="dark"] .form-check-input {
+	background-color: #416354;
+}
