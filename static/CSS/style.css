@@ -452,3 +452,43 @@ h6 {
 [data-theme="dark"] .form-check-input {
 	background-color: #416354;
 }
+
+/* manual light mode switch */
+[data-theme="light"] {
+	background-color: #F4F7FD !important;
+	color: #727272;
+}
+
+[data-theme="light"] h1,
+h2,
+h3,
+h4,
+h5,
+h6 {	
+	color: #222;
+}
+
+[data-theme="light"] b {
+	color:gray;
+}
+
+[data-theme="light"] .profile {
+	color:#267CB9;
+}
+
+[data-theme="light"] .navbar {
+	font: white; 
+	background-color: #4c7da6;
+}
+
+[data-theme="light"] .nav-pills > li > a.active {
+	background-color: rgb(29, 165, 165) !important;
+}
+
+[data-theme="light"] .view {
+	color:black;
+}
+
+[data-theme="light"] .card {
+	background-color: #ffffff;
+}
