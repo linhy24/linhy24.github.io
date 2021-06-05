@@ -361,6 +361,7 @@ screen and (max-width: 480px) {
 
 	.profile {
 		color: rgb(35, 83, 116);
+		border-color: #b9b7b7;
 	}
 
 	.navbar {
