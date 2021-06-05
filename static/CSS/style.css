@@ -67,6 +67,7 @@
 }
 
 .nav-link {
+	float: right;
 	color:beige;
 }
 
@@ -90,7 +91,7 @@ nav .container {
 }
  
 .form-check {
-	margin-top:8.5px;
+	margin-top: 4px;
 }
 
 /* properties of buttons and links */
