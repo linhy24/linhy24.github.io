@@ -67,8 +67,8 @@
 }
 
 .nav-link {
-	float: right;
 	color:beige;
+	margin-top:8.5px;
 }
 
 .nav-link:hover {
@@ -78,7 +78,6 @@
 .nav-pills > li > a.active {
     background-color: rgb(29, 165, 165) !important;
 }
-
 
 /* property of the content area */
 .container {
