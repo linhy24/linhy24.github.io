@@ -44,16 +44,32 @@
 	color:black;
 }
 
+.row a {
+	display: block;
+	width: 130px;
+	margin: auto;
+}
+
 /* properties of the navigation bar */
 .navbar {
 	font: white; 
 	background-color: #4c7da6;
 }
 
+.nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav > li > a.active {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .navbar a {
 	color: beige !important;
 }
-  
+
 .navbar a:hover {
 	color: #F4F7FD;
 	font-weight: bold;
@@ -69,6 +85,8 @@
 .nav-link {
 	float: right;
 	color:beige;
+	padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .nav-link:hover {
@@ -79,6 +97,9 @@
     background-color: rgb(29, 165, 165) !important;
 }
 
+.dropdown a{
+	color:black !important;
+}
 
 /* property of the content area */
 .container {
