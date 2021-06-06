@@ -108,6 +108,11 @@ svg {
 	color:black !important;
 }
 
+.dropdown ul {
+	/* border-radius: 0.75em !important; */
+	border-radius:0.75em;
+}
+
 
 /* property of the content area */
 .container {
@@ -436,6 +441,15 @@ screen and (max-width: 480px) {
 	.card {
 		background-color: #84949c;
 	}
+
+	.dropdown a {
+		color:#dad8d8 !important;
+	}
+
+	.dropdown ul{	
+		background-color: #84949c;
+	}
+	
 }
 
 /* manual dark mode switch */
