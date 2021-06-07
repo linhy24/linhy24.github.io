@@ -417,7 +417,7 @@ screen and (max-width: 480px) {
 
 @media (prefers-color-scheme: dark) {
 	body {
-	  background: #38434e;
+	  background: #2d373f;
 	  color:#dad8d8;
 	}
 
@@ -435,12 +435,12 @@ screen and (max-width: 480px) {
 	}
 
 	.profile {
-		color: rgb(35, 83, 116);
+		color: rgb(128, 199, 243);
 		border-color: #b9b7b7;
 	}
 
 	.navbar {
-		background-color: #2a3641;
+		background-color: #1f2830;
 	}
 
 	.nav-pills > li > a.active {
@@ -452,7 +452,7 @@ screen and (max-width: 480px) {
 	}
 
 	.card {
-		background-color: #84949c;
+		background-color: #5a676d;
 	}
 
 	.dropdown a {
