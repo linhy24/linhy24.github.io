@@ -1,4 +1,3 @@
-
 @media (prefers-color-scheme: dark) {
 	body {
 	  background: #2d373f;
@@ -39,12 +38,16 @@
 		background-color: #5a676d;
 	}
 
-	.dropdown a {
+	.dropdown label {
 		color:#dad8d8 !important;
 	}
 
+    .dropdown input {
+		background-color: #39574a !important;
+	}
+
 	.dropdown ul{	
-		background-color: #84949c;
+		background-color: #5a676d;
 	}
 	
 }

@@ -39,6 +39,7 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/f04a46b200.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./static/CSS/style.css" type="text/css">
+  <link title="dark" rel="stylesheet" href="./static/CSS/darkmode.css" type="text/css">
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
   <![endif]-->
@@ -49,23 +50,20 @@
   <nav class="navbar navbar-dark">
     <div class="container">
       <ul class="nav nav-pills">
-        <li class="nav-item">
-          <div class="nav-link">
-
-            <div class="dropdown">
+        <li class="nav-item" >
+          <div class="nav-link" >
+            <div class="dropdown" >
               <a class="d-flex align-items-center text-white text-decoration-none" id="dropdownUser1"
                 data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="profile.jpg" width="32" height="32" class="rounded-circle me-2">
+                <img src="profile.jpg" width="42" height="42" class="rounded-circle me-2">
               </a>
-              <ul class="dropdown-menu dropdown-menu text-small shadow" aria-labelledby="dropdownUser1">
-                <li><a class="dropdown-item" href="#">Preference</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="#">Settings</a></li>
-              </ul>
+              <!-- <ul class="dropdown-menu dropdown-menu text-small shadow-lg" aria-labelledby="dropdownUser1" style="margin-top: 5px;">
+                <div class="form-check form-switch">
+                  <label class="custom-control-label" for="darkSwitch">Follow System</label>
+                  <input type="checkbox" class="form-check-input" id="darkSwitch">
+                </div>
+              </ul> -->
             </div>
-
           </div>
           <!-- <a class="nav-link" aria-current="page" href="https://linhy24.github.io">
             
@@ -77,16 +75,37 @@
         <li class="nav-item">
           <a class="nav-link active" href="https://linhy24.github.io/blog">Blog</a>
         </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link">
+            <div class="dropdown">
+              <a class="d-flex align-items-center text-white text-decoration-none" id="dropdownUser1"
+                data-bs-toggle="dropdown" aria-expanded="false">Theme</a>
+              <ul class="dropdown-menu dropdown-menu text-small shadow-lg" aria-labelledby="dropdownUser1" style="margin-top: 5px;">
+                
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+              </ul>
+          </a>
+        </li> -->
       </ul>
       <ul class="nav justify-content-end">
         <li class="nav-link">
-
+          
           <!-- <div class="form-check form-switch"> -->
-          <a id="theme"></a>
-
-          <!-- <input type="checkbox" class="form-check-input" id="darkSwitch" /> -->
-          <!-- <label class="custom-control-label" for="darkSwitch">Dark Mode</label> -->
-          <!-- </div> -->
+          <!-- <a id="theme"></a> -->
+          <div class="dropdown" >
+            <a class="d-flex align-items-center text-white text-decoration-none" id="theme"
+              data-bs-toggle="dropdown" aria-expanded="false">
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end text-small shadow-lg" aria-labelledby="dropdownUser1" style="margin-left:5px; padding: 10px;">
+              <div class="form-check form-switch">
+                <label class="custom-control-label" for="darkSwitch" style="font-size: 14px;">Follow System</label>
+                <input type="checkbox" class="form-check-input" id="darkSwitch">
+              </div>
+            </ul>
+          </div>
         </li>
       </ul>
     </div>

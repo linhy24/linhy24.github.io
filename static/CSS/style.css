@@ -109,7 +109,7 @@ svg {
 	margin-top: 6px;
 }
 
-.dropdown a{
+.dropdown li a{
 	color:black !important;
 }
 
@@ -118,6 +118,15 @@ svg {
 	border-radius:0.75em;
 }
 
+.dropdown .form-check {
+	margin-top: 1px;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.dropdown input {
+	background-color: #4c7da6 !important;
+}
 
 /* property of the content area */
 .container {
