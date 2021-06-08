@@ -114,17 +114,20 @@ svg {
 }
 
 .dropdown ul {
-	/* border-radius: 0.75em !important; */
 	border-radius:0.75em;
+}
+
+.dropdown .dropdown-menu {
+	margin-top: 7px;
 }
 
 .dropdown .form-check {
 	margin-top: 1px;
-	margin-left: 5px;
+	margin-left: 1px;
 	text-align: center;
 }
 
-.dropdown input {
+.dropdown input:checked {
 	background-color: #4c7da6 !important;
 }
 
