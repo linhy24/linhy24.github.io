@@ -1,6 +1,6 @@
 @media (prefers-color-scheme: dark) {
 	body {
-	  background: #2d373f;
+	  background: #191c1f;
 	  color:#dad8d8;
 	}
 
@@ -23,11 +23,11 @@
 	}
 
 	.navbar {
-		background-color: #1f2830;
+		background-color: #23282c;
 	}
 
 	.nav-pills > li > a.active {
-		background-color: #39574a !important;
+		background-color: #516269 !important;
 	}
 
 	.view {
@@ -35,7 +35,7 @@
 	}
 
 	.card {
-		background-color: #5a676d;
+		background-color: #455157;
 	}
 
 	.dropdown label {
