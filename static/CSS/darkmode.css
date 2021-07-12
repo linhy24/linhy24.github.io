@@ -49,5 +49,14 @@
 	.dropdown ul{	
 		background-color: #5a676d;
 	}
+
+	.button {
+		background-color: #cacccf;
+	}
+
+	.button:hover {
+		background-color: #dff3f3;
+		box-shadow: 0px 10px 15px rgba(71, 175, 153, 0.4);
+	}
 	
 }
