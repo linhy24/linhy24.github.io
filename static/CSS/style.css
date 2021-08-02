@@ -260,6 +260,11 @@ p{
 		margin-top: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
+		position: static;
+	}
+
+	.row {
+		margin-top: 0em;
 	}
 
 	.content p {
@@ -345,7 +350,7 @@ footer {
 	-webkit-font-smoothing: subpixel-antialiased
 }
 
-/* for resizing adjustments */
+/* page print alignments */
 @media print,
 screen and (max-width: 960px) {
 	div.wrapper {
