@@ -44,6 +44,10 @@
 	color:black;
 }
 
+.row {
+	margin-top: 7em;
+}
+
 .row a {
 	display: block;
 	width: 130px;
@@ -53,7 +57,7 @@
 /* properties of the navigation bar */
 .navbar {
 	font: white; 
-	background-color: #4c7da6;
+	background-color: #3a617c;
 }
 
 .navbar a {
