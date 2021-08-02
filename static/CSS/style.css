@@ -257,6 +257,7 @@ p{
 @media screen and (max-width: 480px) {
 	.navbar {
 		border-radius: 0.75em;
+		margin-top: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
