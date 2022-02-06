@@ -265,7 +265,7 @@ p{
 
 	.nav-link {
 		margin-top: -3px;
-		font-size: 16px;
+		font-size: 15px;
 	}
 
 	.nav-item {
@@ -273,8 +273,8 @@ p{
 	}
 
 	svg {
-		width: 18px;
-		height: 18px;
+		width: 16px;
+		height: 16px;
 	}
 
 	.row {
