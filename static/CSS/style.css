@@ -263,6 +263,20 @@ p{
 		position: static;
 	}
 
+	.nav-link {
+		margin-top: -3px;
+		font-size: 16px;
+	}
+
+	.nav-item {
+		margin-top: 1px;
+	}
+
+	svg {
+		width: 18px;
+		height: 18px;
+	}
+
 	.row {
 		margin-top: 0em;
 	}
@@ -270,6 +284,7 @@ p{
 	.content p {
 		font-size: 13px;
 	}
+
 }
 
 @media screen and (max-width: 375px) {
