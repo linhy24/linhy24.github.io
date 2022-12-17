@@ -1,2 +1,2 @@
-# Jeffery Lin 
+# Jeffrey Lin 
 ### personal website
