@@ -2,28 +2,27 @@
 .card-margin {
 	margin-bottom: 1.875rem;
 }
-  
+
 .card {
 	border: 0;
 	box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
 	-webkit-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
 	-moz-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
 	-ms-box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
-}
-  
-.card {
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	min-width: 0;
 	word-wrap: break-word;
-	background-color: #ffffff;
+	background-color: #f9f9f9;
 	background-clip: border-box;
 	border: 1px solid #e6e4e9;
 	border-radius: 0.75em;
+	min-height: 80vh;
 }
   
 .card .card-header.no-border {
+	align-items: center;
 	border: 0;
 }
 
@@ -33,7 +32,7 @@
 	font-weight: 500;
 	display: flex;
 	align-items: center;
-	min-height: 50px;
+	min-height: 22vh;
 }
  
 .card-header:first-child {
@@ -45,7 +44,8 @@
 }
 
 .row {
-	margin-top: 7em;
+	margin-top: 15vh;
+	margin-bottom: 7vh;
 }
 
 .row a {
@@ -56,17 +56,19 @@
 
 /* properties of the navigation bar */
 .navbar {
-	font: white; 
-	background-color: #3a617c;
+	background-color: #f9f9f9;
+	box-shadow: 0px 0px 10px 0px rgba(82, 63, 105, 0.1);
 }
 
 .navbar a {
-	color: beige !important;
+	color: rgb(121, 130, 132) !important;
+	margin-right: 0.5em;
 }
 
 .navbar a:hover {
-	color: #F4F7FD;
-	font-weight: bold;
+	/* color: #F4F7FD; */
+	/* font-weight: bold; */
+	background-color: #dff3f3;
 }
   
 .nav > li > a.active,
@@ -84,6 +86,7 @@
 }
 
 svg {
+	color: rgb(119, 130, 134);
 	width:20px;
 	height:20px;
 }
@@ -92,13 +95,12 @@ svg {
 	color:beige;
 }
 
-.nav-pills > li > a.active {
-    background-color: rgb(29, 165, 165) !important;
-	margin-top: 6px;
+.nav-pills {
+	align-items: center;
 }
 
-.nav-pills > li > a {
-	margin-top: 6px;
+.nav-pills > li > a.active {
+    background-color: #dff3f3 !important;
 }
 
 .dropdown li a{
@@ -120,7 +122,7 @@ svg {
 }
 
 .dropdown input:checked {
-	background-color: #4c7da6 !important;
+	background-color: #457ca9 !important;
 }
 
 /* property of the content area */
@@ -130,7 +132,7 @@ svg {
 
 nav .container {
 	margin-top: 0;
-	height:60px;
+	height: 8vh;
 	font-size: 20px;
 }
  
@@ -261,15 +263,12 @@ p{
 		margin-left: 13px;
 		margin-right: 13px;
 		position: static;
+		height:8vh;
 	}
-
+	
 	.nav-link {
-		margin-top: -3px;
+		margin-top: -12px;
 		font-size: 15px;
-	}
-
-	.nav-item {
-		margin-top: 1px;
 	}
 
 	svg {

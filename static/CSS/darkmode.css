@@ -23,7 +23,17 @@
 	}
 
 	.navbar {
-		background-color: #23282c;
+		border: 0;
+		background-color: #232a33;
+		box-shadow: 0px 0px 10px 0px rgba(214, 214, 220, 0.924);
+	}
+
+	.navbar a {
+		color:#dff3f3 !important;
+	}
+
+	.navbar a:hover {
+		color:#5d5f5f !important;
 	}
 
 	.nav-pills > li > a.active {
@@ -35,7 +45,9 @@
 	}
 
 	.card {
-		background-color: #455157;
+		border: 0;
+		background-color: #232a33;
+		box-shadow: 0px 0px 10px 0px rgba(214, 214, 220, 0.924);
 	}
 
 	.dropdown label {
