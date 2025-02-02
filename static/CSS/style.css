@@ -20,7 +20,7 @@
 	border-radius: 0.75em;
 	min-height: 80vh;
 }
-  
+
 .card .card-header.no-border {
 	align-items: center;
 	border: 0;
@@ -34,13 +34,13 @@
 	align-items: center;
 	min-height: 22vh;
 }
- 
+
 .card-header:first-child {
 	border-radius: calc(8px - 1px) calc(8px - 1px) 0 0;
 }
 
 .view {
-	color:black;
+	color: black;
 }
 
 .row {
@@ -68,45 +68,45 @@
 .navbar a:hover {
 	background-color: #dff3f3;
 }
-  
-.nav > li > a.active,
+
+.nav>li>a.active,
 .nav>li>a:hover,
 .nav>li>a:focus {
-	color:beige;
+	color: beige;
 	border-radius: 0.75em;
 }
 
 .nav-link {
 	float: right;
-	color:beige;
+	color: beige;
 	padding-top: 5px;
-    padding-bottom: 5px;
+	padding-bottom: 5px;
 }
 
 svg {
 	color: rgb(119, 130, 134);
-	width:20px;
-	height:20px;
+	width: 20px;
+	height: 20px;
 }
 
 .nav-link:hover {
-	color:beige;
+	color: beige;
 }
 
 .nav-pills {
 	align-items: center;
 }
 
-.nav-pills > li > a.active {
-    background-color: #dff3f3 !important;
+.nav-pills>li>a.active {
+	background-color: #dff3f3 !important;
 }
 
-.dropdown li a{
-	color:black !important;
+.dropdown li a {
+	color: black !important;
 }
 
 .dropdown ul {
-	border-radius:0.75em;
+	border-radius: 0.75em;
 }
 
 .dropdown .dropdown-menu {
@@ -133,7 +133,7 @@ nav .container {
 	height: 8vh;
 	font-size: 20px;
 }
- 
+
 .form-check {
 	margin-top: 6px;
 }
@@ -141,21 +141,21 @@ nav .container {
 /* properties of buttons and links */
 .profile {
 	padding: 0.35em;
-	border:0.1em solid #000000;
+	border: 0.1em solid #000000;
 	width: 130px;
 	justify-content: center;
 	align-items: center;
-	text-align:center;
+	text-align: center;
 	margin: auto;
-	border-radius:0.5em;
-	text-decoration:none;
-	color:#267CB9;
+	border-radius: 0.5em;
+	text-decoration: none;
+	color: #267CB9;
 	transition: all 0.2s;
 	display: block
 }
 
 .profile:hover {
-	background-color:#e6f7f7;
+	background-color: #e6f7f7;
 	color: #069;
 	font-weight: bold
 }
@@ -163,13 +163,13 @@ nav .container {
 .link {
 	justify-content: center;
 	align-items: center;
-	text-align:center;
+	text-align: center;
 }
 
 .wrap {
 	justify-content: center;
 	align-items: center;
-	text-align:center;
+	text-align: center;
 }
 
 .button {
@@ -196,7 +196,7 @@ nav .container {
 }
 
 /* properties of body and html tags */
-body{
+body {
 	background: #F4F7FD;
 	font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #727272;
@@ -245,7 +245,7 @@ h6 {
 	color: #494949
 }
 
-p{
+p {
 	text-align: center
 }
 
@@ -261,9 +261,9 @@ p{
 		margin-left: 13px;
 		margin-right: 13px;
 		position: static;
-		height:8vh;
+		height: 8vh;
 	}
-	
+
 	.nav-link {
 		margin-top: -12px;
 		font-size: 15px;
@@ -289,11 +289,11 @@ p{
 		font-size: 17px;
 	}
 
-	.nav > li > a {
+	.nav>li>a {
 		margin-top: 10px;
 	}
 
-	.nav > li > a.active {
+	.nav>li>a.active {
 		margin-top: 10px;
 	}
 }
@@ -384,9 +384,11 @@ screen and (max-width: 960px) {
 		padding: 20px 0;
 		margin: 0 0 20px
 	}
+
 	header a small {
 		display: inline
 	}
+
 	header ul {
 		position: absolute;
 		right: 50px;
@@ -400,13 +402,16 @@ screen and (max-width: 720px) {
 	body {
 		word-wrap: break-word
 	}
+
 	header {
 		padding: 0
 	}
+
 	header ul,
 	header p.view {
 		position: static
 	}
+
 	pre,
 	code {
 		word-wrap: normal
@@ -418,9 +423,11 @@ screen and (max-width: 480px) {
 	body {
 		padding: 10px
 	}
+
 	header ul {
 		width: 99%
 	}
+
 	header li,
 	header ul li+li+li {
 		width: 33%

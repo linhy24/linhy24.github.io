@@ -11,7 +11,7 @@ var darkIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" f
 </svg>`
 
 // disale the darkmode CSS file based on the attribute stored in localStorage
-if (localStorage.getItem("follow") == null) { 
+if (localStorage.getItem("follow") == null) {
     localStorage.setItem("follow", true)
     document.getElementById("toggle").checked = true
 } else {
@@ -53,7 +53,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =
 
 // An EventListener for manual switch of theme preference
 var e = document.getElementById("toggle");
-e.addEventListener("change", function() {
+e.addEventListener("change", function () {
     if (e.checked == true) {
         document.querySelector('link[title="dark"]').disabled = false;
         if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {

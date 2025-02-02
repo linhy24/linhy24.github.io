@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: dark) {
 	body {
-	  background: #191c1f;
-	  color:#dad8d8;
+		background: #191c1f;
+		color: #dad8d8;
 	}
 
 	h1,
@@ -9,12 +9,12 @@
 	h3,
 	h4,
 	h5,
-	h6 {	
-		color:#dad8d8;
+	h6 {
+		color: #dad8d8;
 	}
 
 	b {
-		color:rgb(180, 178, 178);
+		color: rgb(180, 178, 178);
 	}
 
 	.profile {
@@ -29,19 +29,19 @@
 	}
 
 	.navbar a {
-		color:#dff3f3 !important;
+		color: #dff3f3 !important;
 	}
 
 	.navbar a:hover {
-		color:#5d5f5f !important;
+		color: #5d5f5f !important;
 	}
 
-	.nav-pills > li > a.active {
+	.nav-pills>li>a.active {
 		background-color: #516269 !important;
 	}
 
 	.view {
-		color:#dad8d8;
+		color: #dad8d8;
 	}
 
 	.card {
@@ -51,14 +51,14 @@
 	}
 
 	.dropdown label {
-		color:#dad8d8 !important;
+		color: #dad8d8 !important;
 	}
 
-    .dropdown input {
+	.dropdown input {
 		background-color: #39574a !important;
 	}
 
-	.dropdown ul{	
+	.dropdown ul {
 		background-color: #5a676d;
 	}
 
@@ -70,5 +70,5 @@
 		background-color: #dff3f3;
 		box-shadow: 0px 10px 15px rgba(71, 175, 153, 0.4);
 	}
-	
+
 }
